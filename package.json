@@ -1,8 +1,8 @@
 {
   "name": "closure-tools",
   "description": "Google Closure Tools :: Python files on npm",
-  "version": "0.1.1",
-  "homepage": "https://github.com/thanpolas/closure-tools",
+  "version": "0.1.2",
+  "homepage": "https://github.com/closureplease/closure-tools",
   "author": {
     "name": "Thanasis Polychronakis",
     "email": "thanpolas@gmail.com",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:thanpolas/closure-tools.git"
+    "url": "git@github.com:closureplease/closure-tools.git"
   },
   "bugs": {
-    "url": "https://github.com/thanpolas/closure-tools/issues"
+    "url": "https://github.com/closureplease/closure-tools/issues"
   },
   "main": "lib/main.js",
   "engines": {
@@ -22,7 +22,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/thanpolas/closure-tools/blob/master/LICENSE-MIT"
+      "url": "https://github.com/closureplease/closure-tools/blob/master/LICENSE-MIT"
     }
   ],
   "keywords": [

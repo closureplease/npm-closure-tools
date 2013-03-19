@@ -18,7 +18,8 @@ var closureTools = require('closure-tools');
 Get the path:
 
 ```js
-console.log(closureTools.getPath('build/closurebuilder.py'));
+var builderPath = closureTools.getPath('build/closurebuilder.py');
+console.log(builderPath);
 
 // prints:
 // node_modules/closure-tools/closure-bin/build/closurebuilder.py
