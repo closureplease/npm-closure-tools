@@ -9,11 +9,28 @@ Install...
 npm istall closure-tools --save-deps
 ```
 
-* **getPath( filename )**
-  - Get the relative path for the defined `filename`.
-  - The `filename` can have any value that coresponds to [Google Closure's Tools folder][closure-bin].
+Require...
 
-example:
+```js
+var closureTools = require('closure-tools');
+```
+
+Get the path:
+
+```js
+console.log(closureTools.getPath('build/closurebuilder.py'));
+
+// prints:
+// node_modules/closure-tools/closure-bin/build/closurebuilder.py
+```
+### getPath( filename )
+
+Get the relative path to your package's root, for the defined `filename`.
+
+> The `filename` can have any value from [the closure bin folder (see bellow)][#the-closure-bin-contents].
+
+### Full Example
+
 ```js
 var closureTools = require('closure-tools'),
     exec     = require('require('child_process').exec');
