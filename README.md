@@ -1,12 +1,12 @@
 # Google Closure Tools
 
-Google Closure Tools build python files on npm
+An npm package that contains the closure tools with a small API that provides the path to the actual files.
 
 ## Quick Start
 
 Install...
 ```shell
-npm istall superstartup-closure-compiler --save-deps
+npm istall closure-tools --save-deps
 ```
 
 * **getPath( filename )**

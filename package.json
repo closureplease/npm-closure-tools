@@ -1,6 +1,6 @@
 {
   "name": "closure-tools",
-  "description": "Google Closure Tools build python files on npm",
+  "description": "Google Closure Tools :: Python files on npm",
   "version": "0.1.1",
   "homepage": "https://github.com/thanpolas/closure-tools",
   "author": {
