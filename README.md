@@ -63,4 +63,8 @@ calcdeps.py
 scopify.py
 ```
 
+## Release History
+- **v0.1.4**, *5 Nov 2013*  Updated closure binaries to latest.
+
+
 [closure-bin]: http://code.google.com/p/closure-library/source/browse/#git%2Fclosure%2Fbin "Google closure bin folder"
