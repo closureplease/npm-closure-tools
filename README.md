@@ -6,7 +6,7 @@ An npm package that contains the closure tools with a small API that provides th
 
 Install...
 ```shell
-npm istall closure-tools --save-deps
+npm install closure-tools --save-deps
 ```
 
 Require...
@@ -28,7 +28,7 @@ console.log(builderPath);
 
 Get the relative path to your package's root, for the defined `filename`.
 
-> The `filename` can have any value from [the closure bin folder (see bellow)][#the-closure-bin-contents].
+> The `filename` can have any value from [the closure bin folder (see below)](#the-closure-bin-contents).
 
 ### Full Example
 
@@ -43,12 +43,11 @@ var command = closureTools.getPath('build/closurebuilder.py') + ' ' + buildOptio
 
 // run the closureTools command
 exec( command, cb );
-
 ```
 
 ## The Closure `bin` Contents
 
-This is the current breakout of the [Google Closure's Tools folder][closure-bin], and in effect all the possible values the `getPah()` method will make sense:
+This is the current breakout of the [Google Closure's Tools folder][closure-bin], and in effect all the possible values the `getPath()` method will make sense:
 
 ```text
 build/closurebuilder.py
